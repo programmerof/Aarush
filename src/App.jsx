@@ -1,7 +1,15 @@
-export default function App() {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import CardComponent from './pages/serviceStack';
+
+const App = () => {
   return (
-    <h1 className="text-3xl text-red-300 underline">
-      Hello world!
-    </h1>
-  )
-}
+    <Router>
+      <Routes>
+        <Route path="/" element={<CardComponent />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
