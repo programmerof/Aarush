@@ -18,5 +18,10 @@
       "slug": "uk",
       "name": "United Kingdom",
       "image": "/flag/Uk.svg"
+    },
+    {
+      "slug": "uae",
+      "name": "United Arab Emirates",
+      "image": "/flag/uae.png"
     }
   ]
