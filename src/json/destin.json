@@ -1,0 +1,22 @@
+[
+    {
+      "slug": "usa",
+      "name": "United States of America",
+      "image": "/flag/usa.svg"
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "image": "/flag/canada.png"
+    },
+    {
+      "slug": "australia",
+      "name": "Australia",
+      "image": "/flag/aus.svg"
+    },
+    {
+      "slug": "uk",
+      "name": "United Kingdom",
+      "image": "/flag/Uk.svg"
+    }
+  ]

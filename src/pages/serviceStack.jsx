@@ -31,7 +31,7 @@ const CardComponent = () => {
             <div>
               <img
                 className="h-16 w-16 overflow-clip"
-                src="/CardComponent/image/destination.png"
+                src="/Threeservice/destination.png"
                 alt="Career Counseling Icon"
               />
             </div>
@@ -50,7 +50,7 @@ const CardComponent = () => {
             <div>
               <img
                 className="h-16 w-16 overflow-clip"
-                src="/CardComponent/image/consultation.png"
+                src="/Threeservice/consultation.png"
                 alt="University Selection Icon"
               />
             </div>
@@ -68,7 +68,7 @@ const CardComponent = () => {
             <div>
               <img
                 className="h-14 w-16 overflow-clip"
-                src="/CardComponent/image/graduated.png"
+                src="/Threeservice/graduated.png"
                 alt="Visa Assistance Icon"
               />
             </div>
