@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
           <div>
             <h1 className="text-4xl font-bold text-blue-800 sm:text-6xl">
-              <span className="block">Aarush International</span>
+              <span className="block">Aarush International Private</span>
               <span className="block">Education Limited</span>
             </h1>
             <p className="mt-4 text-lg text-gray-600">

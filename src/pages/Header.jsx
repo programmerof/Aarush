@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BsGlobe } from 'react-icons/bs';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link to="/">
           <h1 className="text-2xl font-bold text-gray-900">
-            Aarush International Education Limited 🌍
+            Aarush International Education Privated Limited 🌍
           </h1>
         </Link>
         <nav className="hidden md:flex">

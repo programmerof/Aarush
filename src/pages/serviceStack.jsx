@@ -18,7 +18,7 @@ const CardComponent = () => {
         </div>
         <div className="flex justify-center">
           <p className="text-black font-semibold border rounded-md md:w-6/6 bg-gradient-to-b from-blue-50 to-white p-1">
-            Aarush International Education Private Ltd, your trusted partner for
+          Aarush International Private Education Limited, your trusted partner for
             navigating the complexities of studying abroad.
           </p>
         </div>
