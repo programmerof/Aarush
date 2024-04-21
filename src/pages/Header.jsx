@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between max-w-7xl mx-auto">
         <Link to="/">
           <h1 className="text-2xl font-bold text-gray-900">
-            Aarush International Education Privated Limited 🌍
+          Aarush International Education Private Limited 🌍
           </h1>
         </Link>
         <nav className="hidden md:flex">

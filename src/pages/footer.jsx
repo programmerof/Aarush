@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
           <div className="mx-auto max-w-sm lg:max-w-none">
             <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
-            Aarush International Private Education Limited is an educational consultancy located in Kathmandu, Nepal. We
+            Aarush International Education Private Limited is an educational consultancy located in Kathmandu, Nepal. We
               provide comprehensive guidance and support to students aspiring to study abroad in countries.
             </p>
 
@@ -104,7 +104,7 @@ const Footer = () => {
 
         <div className="mt-16 border-t border-gray-100 pt-8">
           <p className="text-center text-xs/relaxed text-gray-500">
-            © Aarush International Private Education Limited 2024. All rights reserved.
+            © Aarush International Education Private Limited 2024. All rights reserved.
           </p>
         </div>
       </div>
