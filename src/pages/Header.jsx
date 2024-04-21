@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BsGlobe } from 'react-icons/bs';
 import { HiOutlineMenuAlt3 } from 'react-icons/hi';
-import { Button } from '@/components/ui/button';
+import { Button } from '../components/ui/button';
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
