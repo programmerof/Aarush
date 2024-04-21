@@ -1,6 +1,3 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
 const CardComponent = () => {
   return (
     <div className="flex flex-col bg-slate-100 mx-auto md:flex border py-2 px-2 ">
