@@ -5,7 +5,6 @@ import Service from './pages/Service';
 import Footer from './pages/footer';
 import Header from './pages/Header';
 import Hero from './pages/Hero';
-
 const App = () => {
   return (
     <Router>
@@ -16,7 +15,6 @@ const App = () => {
       <StudyCountry />
       <CardComponent />
       <Footer />
-
       <Routes>
         {/* <Route path="/" element={<CardComponent />} />
         <Route path="/study" element={<StudyCountry />} /> */}
