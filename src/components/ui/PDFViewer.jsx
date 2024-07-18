@@ -80,11 +80,26 @@ const PDFWatermarkViewer = () => {
 
   return (
     <div className="pdf-viewer">
-      <div className="controls">
-        <button onClick={prevPdf} disabled={currentPdf === 1}>Previous</button>
-        <span>PDF {currentPdf} of {totalPdfs}</span>
-        <button onClick={nextPdf} disabled={currentPdf === totalPdfs}>Next</button>
-      </div>
+     <div className="controls flex items-center justify-between">
+  <button
+    onClick={prevPdf}
+    disabled={currentPdf === 1}
+    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+  >
+    Previous
+  </button>
+  <span className="text-gray-700">
+    PDF {currentPdf} of {totalPdfs}
+  </span>
+  <button
+    onClick={nextPdf}
+    disabled={currentPdf === totalPdfs}
+    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+  >
+    Next
+  </button>
+</div>
+
       {error ? (
         <div className="error">{error}</div>
       ) : pdfUrl ? (
