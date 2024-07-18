@@ -5,10 +5,13 @@ import Service from './pages/Service';
 import Footer from './pages/footer';
 import Header from './pages/Header';
 import Hero from './pages/Hero';
+import Pdf from './pages/Pdf';
+
 const App = () => {
   return (
     <Router>
       {/* Put components in here */}
+      <Pdf />
       <Header />
       <Hero />
       <Service />
@@ -18,6 +21,7 @@ const App = () => {
       <Routes>
         {/* <Route path="/" element={<CardComponent />} />
         <Route path="/study" element={<StudyCountry />} /> */}
+        <Route path="/pdf" element={<Pdf />} />
 
 
       </Routes>
